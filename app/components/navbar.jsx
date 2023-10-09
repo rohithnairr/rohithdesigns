@@ -13,21 +13,7 @@ export default function Navigation() {
             <a className="mr-5 hover:text-indigo-500" href="https://drive.google.com/file/d/18nRO-PdHtWKZ9XHItEWcpN32-L5mGZOK/view?usp=drive_link">Resume</a>
             <a className="mr-5 hover:text-indigo-500" href="https://rohithnairr.uk/portfolio/">Developer</a>
           </nav>
-          <a className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-indigo-500 text-base mt-4 md:mt-0" href="mailto:rohithnairreghu@gmail.com">
-            Contact Me
-            <svg
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              className="w-4 h-4 ml-1"
-              viewBox="0 0 24 24"
-            >
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-
-          </a>
+         
         </div>
       </header>
     </>

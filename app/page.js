@@ -16,8 +16,7 @@ export default function Home() {
   return (
     <>
   <Navigation/>
-      <div className='container mx-auto p-4'>
-
+      <div className='container font-mono mx-auto p-4'>
         <div className='grid lg:grid-cols-2 gap-4 mt-16 sm:grid-cols-1 md:grid-cols-2  text-grey-900'>
           <div className='mt-0 lg:mt-60 md:mt-52' data-aos="fade-right">
             <h1 className="font-bold text-4xl lg:text-5xl font-VT323 pb-4 ">Hey !</h1>
@@ -61,7 +60,7 @@ export default function Home() {
           /></div>
         </div>
 
-        <div className='grid lg:grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-3 pt-64 text-white'>
+        <div className='grid lg:grid-cols-3 gap-4 mx-auto sm:grid-cols-1 md:grid-cols-3 pt-64 text-white'>
           <div className="pt-12 text-white"><Image
             className="max-w-sm h-auto mx-auto"
             src={circle}
@@ -75,7 +74,7 @@ export default function Home() {
             src={triangle}
             alt={'main image'}
           />
-            <h3 className=" font-VT323 font-semibold text-center my-8 text-xl">Front End Development</h3>
+            <h3 className="font-VT323 font-semibold text-center my-8 text-xl">Front End Development</h3>
             <p className=" font-VT323 font-light text-center my-8 text-xl" >Front-end developer passionate about building beautiful and user-friendly interfaces with Next.js, React, HTML, CSS, and JavaScript.</p>
           </div>
           <div className="pt-12  text-white"><Image
@@ -86,7 +85,6 @@ export default function Home() {
             <h3 className=" font-VT323 font-semibold text-center my-8 text-xl">User Experience Designer</h3>
             <p className=" font-VT323 font-light text-center my-8 text-xl" >As a user experience designer who values precision and depth, I am passionate about creating accessible and simple products that all humans can enjoy.</p>
           </div>
-
         </div>
 
 
