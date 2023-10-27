@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
   <Navigation/>
-      <div className='container  mx-auto p-4'>
+      <div className='container  mx-auto p-4 bg-black'>
         <div className='grid lg:grid-cols-2 gap-4 mt-16 sm:grid-cols-1 md:grid-cols-2  text-grey-900'>
           <div className='mt-0 lg:mt-60 md:mt-52' data-aos="fade-right">
             <h1 className="font-bold text-4xl lg:text-5xl font-VT323 pb-4 ">Hey ! &#128591;</h1>
