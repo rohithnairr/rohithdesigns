@@ -1,10 +1,8 @@
 
 
 import './globals.css'
-import { Inter } from 'next/font/google'
 import Head from 'next/head'; // Import the Head component to set the HTML head properties.
 
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Portfolio',
@@ -13,12 +11,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <div className='bg-black'>
+ <>
       <Head>
-        {/* Set the lang attribute for HTML */}
         <html lang="en" />
       </Head>
-      <body className='bg-black'>{children}</body>
-    </div>
+      <body>{children}</body>
+    </>
   )
 }
