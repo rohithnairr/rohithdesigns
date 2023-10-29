@@ -19,8 +19,8 @@ export default function Home() {
       <div className='container  mx-auto p-4 bg-black'>
         <div className='grid lg:grid-cols-2 gap-4 mt-16 sm:grid-cols-1 md:grid-cols-2  text-grey-900'>
           <div className='mt-0 lg:mt-60 md:mt-52' data-aos="fade-right">
-            <h1 className="font-bold text-4xl lg:text-5xl font-VT323 pb-4 ">Hey ! &#128591;</h1>
-            <h1 className="font-bold text-4xl lg:text-5xl font-VT323">I’m Rohith Nair</h1>
+            <h1 className="font-bold text-4xl lg:text-5xl font-VT323 pb-4 ">Hey! &#128591;</h1>
+            <h1 className="font-bold text-4xl lg:text-5xl font-VT323">I’m Rohith Nair Reghu</h1>
             <h2 className="text-2xl pt-2 d font-VT323">Senior Product Designer, Developer </h2>
             <p className="pt-5 pb-14 max-w-l font-thin font-VT323 text-l text-gray-400">With four years of experience in the field of designing and development, I'm committed to uniting people and technology, harnessing its potential to empower individuals, and driving positive change in society.</p>
             <a className="text-xl text-blue-500 mt-8 font-VT323 font-semibold underline" href="mailto:rohithnairreghu@gmail.com">Get in Touch &#8594;</a>
