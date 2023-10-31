@@ -1,8 +1,8 @@
 
 
+import Navigation from './components/navbar';
 import './globals.css'
 import Head from 'next/head'; // Import the Head component to set the HTML head properties.
-import Navigation  from './components/navbar';
 
 
 export const metadata = {
@@ -13,10 +13,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
  <>
-     
-      <Navigation/>
+      <Head>
+        <html lang="en" />
+      </Head>
+      <Navigation></Navigation>
       <body>{children}</body>
- 
     </>
   )
 }
