@@ -10,11 +10,12 @@ import square from "./images/square.png"
 import Works from "./components/recentworks"
 import Blog from "./components/blogs"
 import Footer from "./components/footer"
+import Navigation from "./components/navbar";
 
 export default function Home() {
   return (
     <>
-
+      <Navigation/>
       <div className='container mx-auto p-4'>
 
         <div className='grid lg:grid-cols-2 gap-4 mt-16 sm:grid-cols-1 md:grid-cols-2  text-grey-900'>
