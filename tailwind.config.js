@@ -13,8 +13,7 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        'Lexend': ['Lexend', 'sans-serif'],
-        'VT323': ['VT323', 'monospace']
+        'Jakarta': ['Plus Jakarta Sans', 'sans-serif']
       },
     },
   },
