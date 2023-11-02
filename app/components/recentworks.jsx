@@ -6,7 +6,7 @@ import { client } from "../configSanity";
 import Link from "next/link";
 
 async function getData() {
-  const query = `*[_type== 'designs']{
+  const query = `*[_type== 'designs'] | order(_id desc) {
     description,heading,link,_id,
     "imageUrl": image.asset->url }`;
   const data = await client.fetch(query);
