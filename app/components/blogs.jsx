@@ -24,7 +24,7 @@ const Blogs = async () => {
             
           <div className="mt-20" >
           {blog.imageUrl && (
-            <Image className="w-auto h-70" style={{ height: '70%', width: '100%' }}
+            <Image className="w-auto h-70 rounded-lg" style={{ height: '70%', width: '100%' }}
            width={1400}
            height={300}
       

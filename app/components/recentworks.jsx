@@ -25,14 +25,14 @@ const Works = async () => {
           <div className="mt-20">
           <a href={design.link} className="text-xl font-extralight text-blue-300">
           {design.imageUrl && (
-            <Image className="w-auto h-lg" style={{ height: '70%', width: '100%' }}
+            <Image className="w-auto h-lg rounded-lg" style={{ height: '70%', width: '100%' }}
            width={1400}
            height={500}
               src={design.imageUrl}
               alt={design.heading}
             />)}
-            <h1 className="font-medium font-Jakarta mt-8 lg:text-xl md:text-xl text-xl text-slate-800">{design.heading}</h1>
-            <p className="font-light font-Jakarta mt-2 mb-4 text-sm lg:text-base md:text-lg text-gray-700">{design.description}</p>
+            <h1 className="font-medium font-Jakarta mt-8 lg:text-xl md:text-xl text-xl text-white">{design.heading}</h1>
+            <p className="font-light font-Jakarta mt-2 mb-4 text-sm lg:text-base md:text-lg text-slate-300">{design.description}</p>
             </a>
           </div>
         </div>

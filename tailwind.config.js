@@ -13,9 +13,12 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        'Jakarta': ['Plus Jakarta Sans', 'sans-serif']
+        'Jakarta': ['Jost', 'sans-serif']
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated'),
+    require("daisyui")
+  ],
 }
