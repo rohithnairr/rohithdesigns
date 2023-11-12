@@ -13,7 +13,7 @@ export default function Footer() {
                         </a>
                         <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                             <li>
-                                <a href="https://drive.google.com/file/d/18nRO-PdHtWKZ9XHItEWcpN32-L5mGZOK/view?usp=drive_link" className="mr-4 hover:underline md:mr-6 ">Resume</a>
+                                <a href="https://drive.google.com/file/d/1AOgkv5x9TBJFbj9R18JM52D1thdZK1HF/view?usp=sharing" className="mr-4 hover:underline md:mr-6 ">Resume</a>
                             </li>
                             <li>
                                 <a href="mailto:rohithnairreghu@gmail.com" className="mr-4 hover:underline md:mr-6">Contact Me</a>

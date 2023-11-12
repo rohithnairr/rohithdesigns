@@ -12,7 +12,7 @@ export default function Navigation() {
 
           </a>
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 hover:text-indigo-500" href="https://drive.google.com/file/d/18nRO-PdHtWKZ9XHItEWcpN32-L5mGZOK/view?usp=drive_link">Resume</a>
+            <a className="mr-5 hover:text-indigo-500" href="https://drive.google.com/file/d/1AOgkv5x9TBJFbj9R18JM52D1thdZK1HF/view?usp=sharing">Resume</a>
             <a className="mr-5 hover:text-indigo-500" href="https://rohithnairr.uk/portfolio/">Developer</a>
           </nav>
          
