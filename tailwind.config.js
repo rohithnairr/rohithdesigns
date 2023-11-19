@@ -13,7 +13,9 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        'Jakarta': ['Jost', 'sans-serif']
+        jakarta:["Plus Jakarta Sans","sans-serif"],
+        cs:["Poppins"]
+        
       },
     },
   },

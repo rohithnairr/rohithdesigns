@@ -17,30 +17,36 @@ async function getData() {
 const Works = async () => {
   const data = (await getData()) || [];
   return (
-    
-    <div className="mt-4 grid lg:grid-cols-3 gap-4 md:grid-cols-2 grid-cols-1">
+
+    <div className="mt-16 grid  grid-cols-1">
       {data.map((design) => (
-    
-        <div key={design._id}>  
-          <div className="mt-20">
-          <a href={design.link} className="text-xl font-extralight text-blue-300">
+
+        <div key={design._id} className="flex mb-12 flex-col items-center bg-transparent shadow md:flex-row  hover:bg-gray-900 borders">
           {design.imageUrl && (
-            <Image className="w-auto h-lg rounded-lg" style={{ height: '70%', width: '100%' }}
-           width={1400}
-           height={500}
+            <Image className="object-cover w-full  h-auto max-w-sm  md:rounded-none" style={{ height: '100%', width: '100%' }}
+              width={700}
+              height={700}
               src={design.imageUrl}
               alt={design.heading}
             />)}
-            <h1 className="font-medium font-Jakarta mt-8 lg:text-xl md:text-xl text-xl text-white">{design.heading}</h1>
-            <p className="font-light font-Jakarta mt-2 mb-4 text-sm lg:text-base md:text-lg text-slate-300">{design.description}</p>
-            </a>
+
+          <div className="flex flex-col p-4 ">
+            <h5 className="mb-2 text-xl font-bold tracking-tight text-left text-gray-100 ">{design.heading}</h5>
+            <p className="mb-3 text-base text-left font-light text-gray-700 dark:text-gray-400">{design.description}</p>
+            <p className="mb-3 text-base text-left font-light text-gray-700 dark:text-gray-400">Role : Product Designer</p>
+            <div className="center-contnr">
+              <a className="text-base mt-4  text-center py-4 px-4 font-bold text-white gradient-border inline-block " href={design.link}>Read the story&nbsp;	&#128640;</a>
+            </div>
           </div>
         </div>
-      
+
       ))}
     </div>
-    
+
+
+
   );
 };
 
 export default Works;
+

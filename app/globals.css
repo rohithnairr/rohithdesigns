@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400;600&display=swap');
 
 
 html{
@@ -12,5 +13,49 @@ html{
 body {
   background-color: rgb(15, 15, 15) !important;
   color:#ffffff;
+
 }
 
+/* styles.css or styles/tailwind.css */
+.gradient-border {
+  position: relative;
+  border: 2px solid transparent; /* Set a transparent border to reserve space for the gradient border */
+
+  /* Apply gradient to border using ::before pseudo-element */
+  background-clip: padding-box;
+  border-image: linear-gradient(to right, #fc8181, #feb645) 1;
+  border-radius: 20px !important;
+}
+
+/* Adjust the ::before pseudo-element positioning and size based on your needs */
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  z-index: -1;
+  border-radius: 20px;
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* 100% of the viewport height */
+}
+.grd-brdr{
+  border-image: linear-gradient(to right, #fc8181, #feb645) 1;
+  border-radius: 20px !important;
+  border: 2px solid transparent; 
+}
+.center-contnr {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: auto; /* 100% of the viewport height */
+}
+.borders {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ffffff4b;
+}
