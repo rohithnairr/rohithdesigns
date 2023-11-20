@@ -9,7 +9,7 @@ import personas from "./images/personaspng.png"
 import pain from "./images/pain.png"
 import solution from "./images/solution.png"
 import ia from "./images/ia.png"
-import design from "./images/designs.png"
+import design from "./images/design.png"
 import screen from "./images/mockupweb.png"
 
 export default function Mindbridge() {
