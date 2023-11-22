@@ -36,8 +36,8 @@ export default function Home() {
 
         <div className="grid grid-cols-1 gap-4 mt-16 text-grey-900">
           <div className="mt-8 lg:mt-32 md:mt-20" data-aos="fade-right">
-            <div className="bg-gradient-to-r from-rose-700 to-orange-500 text-transparent bg-clip-text">
-              <h1 className="font-extrabold  text-4xl lg:text-7xl text-center  pb-10 animate-fade-up animate-duration-[3000ms]  font-jakarta">Let me tell you a story.</h1>
+            <div className="bg-gradient-to-r from-rose-700 to-orange-500 text-transparent bg-clip-text animate-fade-up animate-duration-[3000ms]">
+              <h1 className="font-extrabold  text-4xl lg:text-7xl text-center  pb-10  font-jakarta">Let me tell you a story.</h1>
             </div>
             <p className="pb-5 text-gray-100  text-center font-thin font-jakarta  text-base lg:text-2xl animate-fade-up animate-duration-[3000ms] ">Product Designer || Front-End Developer</p>
             <p className=" pb-10 text-gray-400 max-w-lg mx-auto font-jakarta text-center font-thin  text-base animate-fade-up animate-duration-[3000ms] ">A passionate Designer and developer with years of experience in creating intuitive user friendly designs.</p>
