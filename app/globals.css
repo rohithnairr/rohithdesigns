@@ -7,12 +7,12 @@
 
 
 html{
-  background-color: rgb(10, 10, 10) !important;
-  color: #ffffff;
+  background-color: rgb(255, 255, 255) !important;
+  color: #343434;
 }
 body {
-  background-color: rgb(15, 15, 15) !important;
-  color:#ffffff;
+  background-color: rgb(255, 255, 255) !important;
+  color:#2e2e2e;
 
 }
 
@@ -58,4 +58,8 @@ body {
 .borders {
   padding-bottom: 2rem;
   border-bottom: 1px solid #ffffff4b;
+}
+.back{
+  background-image: url('./images/background.png') !important;
+
 }

@@ -1,136 +1,119 @@
 import Image from "next/image";
-import image1 from "./images/image1.png"
-import crowdafrik from "./images/crowdafrik.png"
-import indegene from "./images/indegene.png"
-import techenut from "./images/lume.png"
-import glass from "./images/glass.png"
-import circle from "./images/circle.png"
-import triangle from "./images/traingle.png"
-import square from "./images/square.png"
-import Works from "./components/recentworks"
+
+import card1 from "./images/card1.svg"
+import card2 from "./images/card2.svg"
+import card3 from "./images/card3.svg"
+import card4 from "./images/card4.svg"
+
 import Blog from "./components/blogs"
-import Footer from "./components/footer"
+
 import Navigation from "./components/navbar";
-import dev from './images/development.png'
-import design from './images/design.png'
-import motion from './images/motion.png'
-import graphic from './images/graphic.png'
-import video from './images/video.png'
-import photo from './images/photo.png'
-import lume from './images/lumedigital.png'
-import mindbridge from './images/mindbridge-p.png'
-import raft from './images/raft.png'
-import process from './images/process.png'
-import process_one from './images/process_one.png'
-import process_two from './images/process_two.png'
-import process_three from './images/process_three.png'
-import process_four from './images/process_four.png'
-import Gui from "./components/gui"
+
+import second from './images/second.png'
+
 
 export default function Home() {
   return (
     <>
 
-      <div className="container mx-auto p-4 lg:p-12 font-jakarta">
+    
+
+      <div className="container mx-auto p-4 lg:p-8 font-jakarta bg-white text-black">
         <Navigation />
 
-        <div className="grid grid-cols-1 gap-4 mt-16 text-grey-900">
-          <div className="mt-8 lg:mt-32 md:mt-20" data-aos="fade-right">
-            <div className="bg-gradient-to-r from-rose-700 to-orange-500 text-transparent bg-clip-text animate-fade-up animate-duration-[3000ms]">
-              <h1 className="font-extrabold  text-4xl lg:text-7xl text-center  pb-10  font-jakarta">Let me tell you a story.</h1>
+        <div className="grid lg:grid-cols-3 gap-4 grid-cols-1 mt-8 text-grey-900">
+          <div className="col-span-2 text-black p-12 rounded-xl bg-gradient-to-r from-indigo-100 via-transparent to-blue-100" >
+            <h1 className="text-3xl">Hey, I‘m Rohith Nair.<br />
+              <span className="font-regular">UI/UX Designer and Front-End Developer</span></h1>
+              
+            <p className="mt-16 font-thin max-w-lg ">I care a lot about using design  for positive impact and enjoy creative user-centric, delightful and human experience.</p>
+            <a className="text-base mt-12  text-center py-4 px-12 bg-black font-bold text-white rounded-3xl  inline-block " href='#'>Contact &#8594;</a>
+            <div className="inline">
+              
             </div>
-            <p className="pb-5 text-gray-100  text-center font-thin font-jakarta  text-base lg:text-2xl animate-fade-up animate-duration-[3000ms] ">Product Designer || Front-End Developer</p>
-            <p className=" pb-10 text-gray-400 max-w-lg mx-auto font-jakarta text-center font-thin  text-base animate-fade-up animate-duration-[3000ms] ">A passionate Designer and developer with years of experience in creating intuitive user friendly designs.</p>
-            <div className="center-container">
-              <a className="text-base mt-8 text-center  font-bold text-white px-8 py-4 gradient-border inline-block animate-fade-up animate-duration-[3000ms]  " href="mailto:rohithnairreghu@gmail.com">Connect with me &nbsp;	&#128640;</a>
-            </div>
+         
           </div>
+          <div className="bg-transparent  text-white  rounded-xl">
+           <Image src={second}/>
+          </div>
+
+
 
         </div>
 
 
         <div className="" id="Casestudies">
-          <div className="bg-gradient-to-r from-rose-400 to-orange-500 text-transparent bg-clip-text">
-            <h2 className="text-4xl font-bold text-center mt-24">Case Studies</h2>
-          </div>
-          <div className='grid grid-cols-1 mt-24 text-white'  >
-            <div className="mx-auto"><Image
-              className="mx-auto w-full"
-              src={process}
-              alt={'main image'}
-            /></div>
-          </div>
-
-          <Works />
+            <h2 className="text-3xl  font-bold text-left mt-24">Stories</h2> 
         </div>
 
-        <div className="mt-40 font-Jakarta font-bold text-3xl " id="gui" >
-          <div className="bg-gradient-to-r from-rose-400 to-orange-500 text-transparent bg-clip-text">
-            <h2 className="text-4xl font-bold text-center mt-24">GUI</h2>
-          </div>
-          <Gui />
+        <div className='grid lg:grid-cols-2 gap-2  sm:grid-cols-1 md:grid-cols-2 lg:mt-12 mt-4 text-white'  >
+          <div><a href="https://medium.com/@rohithnairreghu/mindbridge-44fa335c8bd0"><Image src={card1} className="w-full"/></a></div>
+          <div><a href="https://medium.com/@rohithnairreghu/go-card-design-journey-5ee628a6f398"><Image src={card2} className="w-full"/></a></div>
+          <div><a href="https://medium.com/@rohithnairreghu/careershastra-a27acefe94fe"><Image src={card3} className="w-full"/></a></div>
+          <div><a href="./lume"><Image src={card4} className="w-full"/></a></div>
         </div>
+        
 
-        <div className='grid lg:grid-cols-2 gap-4  sm:grid-cols-1 md:grid-cols-2 lg:mt-52 mt-44 text-white'  >
+        <div className='grid lg:grid-cols-2 gap-4  sm:grid-cols-1 md:grid-cols-2 lg:mt-32 mt-4 text-white'  >
           <div className="pt-12">
-            <div className="bg-gradient-to-r from-rose-400 to-orange-500 text-transparent bg-clip-text">
-              <h2 className="text-4xl font-bold">Experience</h2>
+           
+              <h2 className="text-3xl text-black font-bold">Experience</h2>
+         
+            <div className="my-12">
+              <h3 className="text-l lg:text-xl text-gray-800 font-bold">Senior product Designer | Front-End Developer</h3>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">CrowdAfrik Private Limited, London</p>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">June 2023 - Present</p>
             </div>
             <div className="my-12">
-              <h3 className="text-l lg:text-xl font-bold">Senior product Designer | Front-End Developer</h3>
-              <p className="text-base lg:text-l text-gray-400 font-normal mt-2">CrowdAfrik Private Limited, London</p>
-              <p className="text-base lg:text-l text-gray-400 font-normal mt-2">June 2023 - Present</p>
+              <h3 className="text-l lg:text-xl text-gray-800 font-bold">Mid-Senior UI/UX Designer </h3>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">The Elmex Technologies, London</p>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">November 2022 - June 2023</p>
             </div>
             <div className="my-12">
-              <h3 className="text-l lg:text-xl font-bold">Mid-Senior UI/UX Designer </h3>
-              <p className="text-base lg:text-l text-gray-400 font-normal mt-2">The Elmex Technologies, London</p>
-              <p className="text-base lg:text-l text-gray-400 font-normal mt-2">November 2022 - June 2023</p>
+              <h3 className="text-l lg:text-xl text-gray-800 font-bold">UI/UX Developer </h3>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">Indegene Private Limited, India</p>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">June 2021 - July 2023</p>
             </div>
             <div className="my-12">
-              <h3 className="text-l lg:text-xl font-bold">UI/UX Developer </h3>
-              <p className="text-base lg:text-l text-gray-400 font-normal mt-2">Indegene Private Limited, India</p>
-              <p className="text-base lg:text-l text-gray-400 font-normal mt-2">June 2021 - July 2023</p>
-            </div>
-            <div className="my-12">
-              <h3 className="text-l lg:text-xl font-bold">Product Designer</h3>
-              <p className="text-base lg:text-l text-gray-400 font-normal mt-2">The Float Business Accelerator, India</p>
-              <p className="text-base lg:text-l text-gray-400 font-normal mt-2">2020 - 2021</p>
+              <h3 className="text-l lg:text-xl text-gray-800  font-bold">Product Designer</h3>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">The Float Business Accelerator, India</p>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">2020 - 2021</p>
             </div>
 
           </div>
           <div className="pt-12">
-            <div className="bg-gradient-to-r from-rose-400 to-orange-500 text-transparent bg-clip-text">
-              <h2 className="text-4xl font-bold">Education</h2>
+            
+              <h2 className="text-3xl text-black font-bold">Education</h2>
+          
+            <div className="my-12">
+              <h3 className="text-l lg:text-xl text-gray-800 font-bold">Master’s in Web Design and Content Planning</h3>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">University of Greenwich, United Kingdom</p>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">2022- 2023</p>
             </div>
             <div className="my-12">
-              <h3 className="text-l lg:text-xl font-bold">Master’s in Web Design and Content Planning</h3>
-              <p className="text-base lg:text-l text-gray-400 font-normal mt-2">University of Greenwich, United Kingdom</p>
-              <p className="text-base lg:text-l text-gray-400 font-normal mt-2">2022- 2023</p>
-            </div>
-            <div className="my-12">
-              <h3 className="text-l lg:text-xl font-bold">Bachelor’s in Computer Engineering</h3>
-              <p className="text-base lg:text-l text-gray-400 font-normal mt-2">Amrita School of Engineering, India</p>
-              <p className="text-base lg:text-l text-gray-400 font-normal mt-2">2022- 2023</p>
+              <h3 className="text-l lg:text-xl text-gray-800 font-bold">Bachelor’s in Computer Engineering</h3>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">Amrita School of Engineering, India</p>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">2022- 2023</p>
             </div>
           </div>
         </div>
 
 
-        <div className="mt-40 font-Jakarta font-bold text-3xl">
-          <div className="bg-gradient-to-r from-rose-400 to-orange-500 text-transparent bg-clip-text">
-            <h2 className="text-4xl font-bold text-center mt-24">Blogs</h2>
-          </div>
+        <div className="mt-20 font-Jakarta font-bold text-3xl">
+          
+            <h2 className="text-3xl font-bold text-left mt-12">Blogs</h2>
+       
           <Blog />
         </div>
 
 
 
-     
 
-        
+
+
 
       </div>
-      <Footer />
+     
     </>
 
   )

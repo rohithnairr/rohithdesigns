@@ -1,6 +1,7 @@
 
 import './globals.css';
 import Head from 'next/head';
+import Footer from './components/footer';
 
 export const metadata = {
   title: 'Portfolio',
@@ -10,7 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <>
-      <body>{children}</body>
+      <body className='max-w-7xl mx-auto'>{children}</body>
+      <Footer />
     </>
   );
 }
