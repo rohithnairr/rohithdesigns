@@ -4,6 +4,7 @@ import card1 from "./images/card1.svg"
 import card2 from "./images/card2.svg"
 import card3 from "./images/card3.svg"
 import card4 from "./images/card4.svg"
+import Footer from "./components/footer";
 
 import Blog from "./components/blogs"
 
@@ -113,6 +114,7 @@ export default function Home() {
 
 
       </div>
+      <Footer />
      
     </>
 
