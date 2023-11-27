@@ -23,7 +23,7 @@ export default function Home() {
         <Navigation />
 
         <div className="grid lg:grid-cols-3 gap-4 grid-cols-1 mt-8 text-grey-900">
-          <div className="col-span-2 text-black p-12 rounded-xl bg-gradient-to-r from-indigo-100 via-transparent to-blue-100" >
+          <div className="col-span-2 text-black p-12 rounded-xl bg-gradient-to-r from-indigo-100 via-transparent to-blue-100 animate-fade-right animate-duration-[2000ms]" >
             <h1 className="text-3xl">Hey, I‘m Rohith Nair.<br />
               <span className="font-regular">UI/UX Designer and Front-End Developer</span></h1>
               
@@ -34,7 +34,7 @@ export default function Home() {
             </div>
          
           </div>
-          <div className="bg-transparent  text-white  rounded-xl">
+          <div className="bg-transparent  text-white  rounded-xl  animate-fade-left animate-duration-[2000ms]">
            <Image src={second}/>
           </div>
 
@@ -48,10 +48,10 @@ export default function Home() {
         </div>
 
         <div className='grid lg:grid-cols-2 gap-2  sm:grid-cols-1 md:grid-cols-2 lg:mt-12 mt-4 text-white'  >
-          <div><a href="https://medium.com/@rohithnairreghu/mindbridge-44fa335c8bd0"><Image src={card1} className="w-full"/></a></div>
-          <div><a href="https://medium.com/@rohithnairreghu/go-card-design-journey-5ee628a6f398"><Image src={card2} className="w-full"/></a></div>
-          <div><a href="https://medium.com/@rohithnairreghu/careershastra-a27acefe94fe"><Image src={card3} className="w-full"/></a></div>
-          <div><a href="./lume"><Image src={card4} className="w-full"/></a></div>
+          <div className="animate-fade-right animate-duration-[2000ms]"><a href="https://medium.com/@rohithnairreghu/mindbridge-44fa335c8bd0"><Image src={card1} className="w-full"/></a></div>
+          <div className="animate-fade-left animate-duration-[2000ms]"><a href="https://medium.com/@rohithnairreghu/go-card-design-journey-5ee628a6f398"><Image src={card2} className="w-full"/></a></div>
+          <div className="animate-fade-right animate-duration-[2000ms]"><a href="https://medium.com/@rohithnairreghu/careershastra-a27acefe94fe"><Image src={card3} className="w-full"/></a></div>
+          <div className="animate-fade-left animate-duration-[2000ms]"><a href="./lume"><Image src={card4} className="w-full"/></a></div>
         </div>
         
 
