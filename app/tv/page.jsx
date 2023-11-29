@@ -2,7 +2,7 @@
 import Footer from "../components/footer"
 import Navigation from "../components/navbar";
 import banner from "./images/banner.png"
-import mockup from "./images/mockup.png"
+import mockup from "./images/tvm.png"
 import Image from "next/image";
 import process from "../images/Process.svg"
 import personas from "./images/personaspng.png"
@@ -12,26 +12,24 @@ import ia from "./images/ia.png"
 import design from "./images/design.svg"
 import screen from "./images/mockupweb.png"
 
-export default function Lume() {
+export default function Tus() {
   return (
     <>
 
       <div className="container mx-auto p-4 lg:p-12 font-jakarta">
         <Navigation />
         <div className="mt-16">
-          <Image className="w-auto h-70 rounded-xl" style={{ height: 'auto', width: '100%' }}
-            src={banner}
+          <Image className="w-auto h-70 mx-auto rounded-xl" style={{ height: 'auto', width: '70%' }}
+            src={mockup}
             alt="lume"
           />
         </div>
         <div className='grid grid-cols-1 text-grey-900'>
           <div className='mt-0 lg:mt-10  md:mt-20' data-aos="fade-right">
-            <h1 className="font-bold text-2xl  font-Jakarta pb-4 ">Lume Digital</h1>
-            <p className="font-light text-gray-900 text-base  font-Jakarta">Drive success by unlocking your brand full potential with data-driven strategies and creative campaigns</p>
-            <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><b>Role</b> : UI/UX Designer & Developer</p>
-            <div className="center-contnr">
-              <a className="text-base mt-8  text-center py-4 px-12 bg-black font-bold text-white rounded-3xl  inline-block " href="https://www.lume-digital.co.uk">Visit Website &#8594;</a>
-            </div>
+            <h1 className="font-bold text-2xl  font-Jakarta pb-4 ">CineBlend</h1>
+            <p className="font-light text-gray-900 text-base  font-Jakarta">A Digital streaming service that allows users to view movies online.</p>
+            <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><b>Role</b> : UI/UX Designer</p>
+           
 
           </div>
         </div>
@@ -39,23 +37,23 @@ export default function Lume() {
         <div className='grid lg:grid-cols-2 gap-4 mt-32 sm:grid-cols-1 md:grid-cols-2  text-grey-900'>
           <div>
             <Image className="w-auto h-70 mx-auto" style={{ height: 'auto', width: '70%' }}
-              src={mockup}
+              src={banner}
               alt="lume"
             />
           </div>
-          <div className='mt-0 lg:mt-10 md:mt-20' data-aos="fade-right">
+          <div className='mt-0 lg:mt-4 md:mt-20' data-aos="fade-right">
             <h1 className="font-bold text-xl font-Jakarta pb-4 ">Introduction</h1>
             <p className="font-light text-l font-Jakarta pb-4 ">
-              Lume Digital is a UK-based digital marketing agency that has been providing innovative and result-oriented digital solutions to businesses across various industries. With a focus on leveraging the power of the digital landscape, Lume Digital has carved a niche for itself in the competitive market.</p>
+            "CineBlend" is an advanced digital streaming platform designed for smart TVs, offering users the convenience of accessing and enjoying a diverse range of movies online. With a user-friendly interface tailored for smart television screens, Tus Movies provides a seamless and immersive experience, allowing viewers to effortlessly navigate through its extensive library of films. Whether you're a fan of classic cinema or the latest releases, Tus Movies ensures that you can easily discover, stream, and indulge in high-quality entertainment from the comfort of your smart TV.</p>
           </div>
         </div>
 
 
         <div className='grid grid-cols-1 text-grey-900'>
           <div className='mt-8 lg:mt-24 md:mt-20' data-aos="fade-right">
-            <p className="font-light text-gray-900 text-base  font-Jakarta"><span className="font-bold">Client</span> : Lume Digital</p>
-            <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><span className="font-bold">Industry</span> : Digital Marketing</p>
-            <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><span className="font-bold">Challenges</span> :  Outdated website design, poor user experience, and a need for a visually appealing and modern online presence.</p>
+            <p className="font-light text-gray-900 text-base  font-Jakarta"><span className="font-bold">Client</span> : Lume Digital Limited "CineBlend"</p>
+            <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><span className="font-bold">Industry</span> :Entertainment</p>
+            <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><span className="font-bold">Challenges</span> :  Design an aesthetically pleasing and user-friendly interface for an online movie platform that seamlessly integrates with any smart TV operating system, including compatibility with devices like Amazon Firestick and Google.</p>
           </div>
         </div>
 
@@ -64,7 +62,7 @@ export default function Lume() {
             <h1 className="font-bold text-xl font-Jakarta pb-8 ">Objectives</h1>
             <p className="font-light text-gray-900 text-base  font-Jakarta"> &#128170; Enhance User Experience </p>
             <p className="font-light text-gray-900 text-base mt-4  font-Jakarta">&#x2705; Modernize Visual Identity</p>
-            <p className="font-light text-gray-900 text-base mt-4  font-Jakarta">&#128681; Optimize for Conversion</p>
+            <p className="font-light text-gray-900 text-base mt-4  font-Jakarta">&#128681; Seamless Integration</p>
             <p className="font-light text-gray-900 text-base mt-4  font-Jakarta">&#127775; Maintain Brand Consistency</p>
           </div>
         </div>
@@ -80,7 +78,7 @@ export default function Lume() {
             /></div>
             <div>
               <p className="font-bold text-gray-900 text-lg  font-Jakarta">Research and Discovery</p>
-              <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">The extensive research and discovery phase established a solid foundation for the design process. Lume Digital's commitment to understanding Company's brand, audience, and market dynamics ensured that the subsequent design decisions were not only visually appealing but also strategically aligned with the client's goals and user expectations.</p>
+              <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">CineBlend initiated extensive user research, conducting surveys and interviews to understand user behaviors, pain points, and preferences related to home automation. Insights from this research informed the design process.</p>
               <div>
                 <p className="font-light text-gray-900 text-base mt-16  font-Jakarta">I’ve conducted half moderated face-to-face interviews to understand the goals, needs and pain points of the users.</p>
                 <Image className="w-auto h-70 mx-auto" style={{ height: 'auto', width: '100%' }}
@@ -167,8 +165,6 @@ export default function Lume() {
             </div>
           </div>
         </div>
-
-
       </div>
       <Footer />
     </>

@@ -112,6 +112,11 @@ export default function Mindbridge() {
               <p className="font-light text-gray-900 text-base mt-8 mb-8 font-Jakarta">I’ve gathered data on user personas from individuals with diverse backgrounds and perspectives, allowing me to gain valuable insights into their behavior, preferences, and needs. This comprehensive dataset has been instrumental in uncovering patterns and trends that inform the design and development of the Mindbridge app.
 </p>
 
+<Image className="w-auto mt-16 h-70 mx-auto" style={{ height: 'auto', width: '70%' }}
+                  src={questions}
+                  alt="lume"
+                />
+
               </div>
             </div>
           </div>

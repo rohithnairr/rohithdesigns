@@ -53,7 +53,7 @@ export default function Home() {
           <div className="animate-fade-left animate-duration-[2000ms]"><a href="https://medium.com/@rohithnairreghu/go-card-design-journey-5ee628a6f398"><Image src={card2} className="w-full"/></a></div>
           <div className="animate-fade-right animate-duration-[2000ms]"><a href="https://medium.com/@rohithnairreghu/careershastra-a27acefe94fe"><Image src={card3} className="w-full"/></a></div>
           <div className="animate-fade-left animate-duration-[2000ms]"><a href="./lume"><Image src={card4} className="w-full"/></a></div>
-          <div className="animate-fade-left animate-duration-[2000ms]"><a href="#"><Image src={tv} className="w-full"/></a></div>
+          <div className="animate-fade-left animate-duration-[2000ms]"><a href="./tv"><Image src={tv} className="w-full"/></a></div>
         </div>
         
 
