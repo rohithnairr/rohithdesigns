@@ -5,6 +5,7 @@ import card2 from "./images/card2.svg"
 import card3 from "./images/card3.svg"
 import card4 from "./images/card4.svg"
 import Footer from "./components/footer";
+import tv from "./images/tv.svg"
 
 import Blog from "./components/blogs"
 
@@ -25,7 +26,7 @@ export default function Home() {
         <div className="grid lg:grid-cols-3 gap-4 grid-cols-1 mt-8 text-grey-900">
           <div className="col-span-2 text-black p-12 rounded-xl bg-gradient-to-r from-indigo-100 via-transparent to-blue-100 animate-fade-right animate-duration-[2000ms]" >
             <h1 className="text-3xl">Hey, I‘m Rohith Nair.<br />
-              <span className="font-regular">UI/UX Designer and Front-End Developer</span></h1>
+              <span className="font-regular"><b>UI/UX Designer and Front-End Developer</b></span></h1>
               
             <p className="mt-16 font-thin max-w-lg ">I care a lot about using design  for positive impact and enjoy creative user-centric, delightful and human experience.</p>
             <a className="text-base mt-12  text-center py-4 px-12 bg-black font-bold text-white rounded-3xl  inline-block " href='#'>Contact &#8594;</a>
@@ -52,6 +53,7 @@ export default function Home() {
           <div className="animate-fade-left animate-duration-[2000ms]"><a href="https://medium.com/@rohithnairreghu/go-card-design-journey-5ee628a6f398"><Image src={card2} className="w-full"/></a></div>
           <div className="animate-fade-right animate-duration-[2000ms]"><a href="https://medium.com/@rohithnairreghu/careershastra-a27acefe94fe"><Image src={card3} className="w-full"/></a></div>
           <div className="animate-fade-left animate-duration-[2000ms]"><a href="./lume"><Image src={card4} className="w-full"/></a></div>
+          <div className="animate-fade-left animate-duration-[2000ms]"><a href="#"><Image src={tv} className="w-full"/></a></div>
         </div>
         
 
