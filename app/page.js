@@ -4,6 +4,7 @@ import card1 from "./images/card1.svg"
 import card2 from "./images/card2.svg"
 import card3 from "./images/card3.svg"
 import card4 from "./images/card4.svg"
+import card5 from "./images/interactive.svg"
 import Footer from "./components/footer";
 import tv from "./images/tv.svg"
 
@@ -54,6 +55,7 @@ export default function Home() {
           <div className="animate-fade-right animate-duration-[2000ms]"><a href="https://medium.com/@rohithnairreghu/careershastra-a27acefe94fe"><Image src={card3} className="w-full"/></a></div>
           <div className="animate-fade-left animate-duration-[2000ms]"><a href="./lume"><Image src={card4} className="w-full"/></a></div>
           <div className="animate-fade-left animate-duration-[2000ms]"><a href="./tv"><Image src={tv} className="w-full"/></a></div>
+          <div className="animate-fade-left animate-duration-[2000ms]"><a href="./motion"><Image src={card5} className="w-full"/></a></div>
         </div>
         
 
