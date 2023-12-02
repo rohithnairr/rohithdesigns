@@ -14,7 +14,7 @@ export default function Motion
       <div className="container mx-auto p-4 lg:p-12 font-jakarta">
         <Navigation />
         <div className="mt-16">
-          <Image className="w-auto h-70 mx-auto rounded-xl" style={{ height: 'auto', width: '70%' }}
+          <Image className="w-auto h-70 mx-auto rounded-xl mb-16" style={{ height: 'auto', width: '70%' }}
             src={mockup}
             alt="lume"
           />
