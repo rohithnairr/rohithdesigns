@@ -5,6 +5,7 @@ import card2 from "./images/card2.svg"
 import card3 from "./images/card3.svg"
 import card4 from "./images/card4.svg"
 import card5 from "./images/interactive.svg"
+import card6 from "./images/fluck.svg"
 import Footer from "./components/footer";
 import tv from "./images/tv.svg"
 
@@ -50,7 +51,9 @@ export default function Home() {
         </div>
 
         <div className='grid lg:grid-cols-2 gap-2  sm:grid-cols-1 md:grid-cols-2 lg:mt-12 mt-4 text-white'  >
+        
           <div className="animate-fade-right animate-duration-[2000ms]"><a href="./mindbridge"><Image src={card1} className="w-full"/></a></div>
+          <div className="animate-fade-right animate-duration-[2000ms]"><a href="#"><Image src={card6} className="w-full"/></a></div>
           <div className="animate-fade-left animate-duration-[2000ms]"><a href="https://medium.com/@rohithnairreghu/go-card-design-journey-5ee628a6f398"><Image src={card2} className="w-full"/></a></div>
           <div className="animate-fade-right animate-duration-[2000ms]"><a href="https://medium.com/@rohithnairreghu/careershastra-a27acefe94fe"><Image src={card3} className="w-full"/></a></div>
           <div className="animate-fade-left animate-duration-[2000ms]"><a href="./lume"><Image src={card4} className="w-full"/></a></div>
