@@ -67,7 +67,7 @@ export default function Mindbridge() {
         <div className='grid grid-cols-1 text-grey-900 animate-fade-up'>
           <div className='mt-8 lg:mt-24 md:mt-20' data-aos="fade-right">
             <h1 className="font-bold text-xl font-Jakarta pb-8 ">Objectives</h1>
-            <p className="font-light text-gray-900 text-base  font-Jakarta"> &#128170; Enhance User Experience </p>
+            <p className="font-light text-gray-900 text-base  font-Jakarta"> &#128170; Create Intuitive Designs</p>
             <p className="font-light text-gray-900 text-base mt-4  font-Jakarta">&#x2705; Modernize Visual Identity</p>
             <p className="font-light text-gray-900 text-base mt-4  font-Jakarta">&#128681; Optimize for Conversion</p>
             <p className="font-light text-gray-900 text-base mt-4  font-Jakarta">&#127775; Maintain Brand Consistency</p>
