@@ -1,7 +1,7 @@
 
 import Footer from "../components/footer"
 import Navigation from "../components/navbar";
-import banner from "./images/banner.png"
+import banner from "./images/top.png"
 import mockup from "./images/mockup.png"
 import Image from "next/image";
 import process from "../images/Process.svg"
