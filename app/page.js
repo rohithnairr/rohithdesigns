@@ -22,27 +22,20 @@ export default function Home() {
 
     
 
-      <div className="container mx-auto p-4 lg:p-8 font-jakarta bg-white text-black">
+      <div className="container mx-auto p-4 lg:p-8 font-jakarta bg-blue-gray-100 text-black ">
         <Navigation />
 
-        <div className="grid lg:grid-cols-3 gap-4 grid-cols-1 mt-8 text-grey-900">
-          <div className="col-span-2 text-black p-12 rounded-xl bg-gradient-to-r from-indigo-100 via-transparent to-blue-100 animate-fade-right animate-duration-[2000ms]" >
-            <h1 className="text-3xl">Hey, I‘m Rohith Nair.<br />
-              <span className="font-regular"><b>UI/UX Designer and Front-End Developer</b></span></h1>
-              
-            <p className="mt-16 font-thin max-w-lg ">I care a lot about using design  for positive impact and enjoy creative user-centric, delightful and human experience.</p>
-            <a className="text-base mt-12  text-center py-4 px-12 bg-black font-bold text-white rounded-3xl  inline-block " href='#'>Contact &#8594;</a>
-            <div className="inline">
-              
-            </div>
+        <div className="grid grid-cols-1 mt-8 text-grey-700 text-center py-32">
+          <h1 className="font-jakarta lg:text-5xl text-4xl font-bold max-w-3xl  mx-auto text-center">Let me tell you a story of some lines and <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text"> colours.</span></h1>
+          <p className="font-jakarta lg:text-xl text-sm font-light max-w-xl pt-8 text-center  mx-auto">A Chronicle of Design Passion: Tales from the Journey of a Seasoned Product Designer and UX/UI Enthusiast</p>
+        </div>
+
+        <div className="grid lg:grid-cols-4 md:grid-cols-4  bg-white p-4 rounded-lg">
+          <div> <p className=" font-bold text-3xl py-8 text-center">4+ <br/><span className="font-light text-base">Years of Experience</span></p></div>
+          <div> <p className=" font-bold text-3xl py-8 text-center">59+ <br/><span className="font-light text-base">UX/UI Projects</span></p></div>
+          <div> <p className=" font-bold text-3xl py-8 text-center">14+ <br/><span className="font-light text-base">Development Projects</span></p></div>
+          <div> <p className=" font-bold text-3xl py-8 text-center">8+ <br/><span className="font-light text-base">Achievements</span></p></div>
          
-          </div>
-          <div className="bg-transparent  text-white  rounded-xl  animate-fade-left animate-duration-[2000ms]">
-           <Image src={second}/>
-          </div>
-
-
-
         </div>
 
 
