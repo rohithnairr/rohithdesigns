@@ -27,7 +27,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 mt-8 text-grey-700 text-center py-32">
           <h1 className="font-jakarta lg:text-5xl text-4xl font-bold max-w-3xl  mx-auto text-center">Let me tell you a story of some lines and <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text"> colours.</span></h1>
-          <p className="font-jakarta lg:text-xl text-sm font-light max-w-xl pt-8 text-center  mx-auto">A Chronicle of Design Passion: Tales from the Journey of a Seasoned Product Designer and UX/UI Enthusiast</p>
+          <p className="font-jakarta lg:text-xl text-sm font-light max-w-xl pt-8 text-center text-gray-600  mx-auto">A Chronicle of Design Passion: Tales from the Journey of a Seasoned Product Designer and UX/UI Enthusiast</p>
         </div>
 
         <div className="grid lg:grid-cols-4 md:grid-cols-4  bg-white p-4 rounded-lg">
@@ -45,13 +45,13 @@ export default function Home() {
 
         <div className='grid lg:grid-cols-2 gap-2  sm:grid-cols-1 md:grid-cols-2 lg:mt-12 mt-4 text-white'  >
         
-          <div className="animate-fade-right animate-duration-[2000ms]"><a href="./mindbridge"><Image src={card1} className="w-full"/></a></div>
-          <div className="animate-fade-right animate-duration-[2000ms]"><a href="./fluck"><Image src={card6} className="w-full"/></a></div>
-          <div className="animate-fade-left animate-duration-[2000ms]"><a href="https://medium.com/@rohithnairreghu/go-card-design-journey-5ee628a6f398"><Image src={card2} className="w-full"/></a></div>
-          <div className="animate-fade-right animate-duration-[2000ms]"><a href="https://medium.com/@rohithnairreghu/careershastra-a27acefe94fe"><Image src={card3} className="w-full"/></a></div>
-          <div className="animate-fade-left animate-duration-[2000ms]"><a href="./lume"><Image src={card4} className="w-full"/></a></div>
-          <div className="animate-fade-left animate-duration-[2000ms]"><a href="./tv"><Image src={tv} className="w-full"/></a></div>
-          <div className="animate-fade-left animate-duration-[2000ms]"><a href="./motion"><Image src={card5} className="w-full"/></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./mindbridge"><Image src={card1} className="w-full"/></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./fluck"><Image src={card6} className="w-full"/></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="https://medium.com/@rohithnairreghu/go-card-design-journey-5ee628a6f398"><Image src={card2} className="w-full"/></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="https://medium.com/@rohithnairreghu/careershastra-a27acefe94fe"><Image src={card3} className="w-full"/></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./lume"><Image src={card4} className="w-full"/></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./tv"><Image src={tv} className="w-full"/></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./motion"><Image src={card5} className="w-full"/></a></div>
         </div>
         
 

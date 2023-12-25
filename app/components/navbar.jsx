@@ -43,7 +43,7 @@ function Navbar() {
       </div>
       <div className="navbar-end">
       <div className="center-container">
-              <a className="text-base  text-center  font-bold text-black px-6 py-2 " href="https://drive.google.com/file/d/1AOgkv5x9TBJFbj9R18JM52D1thdZK1HF/view?usp=drive_link">Resume &nbsp;	&#128640;</a>
+              <a className="text-base  text-center  font-bold text-black px-6 py-2 " href="https://drive.google.com/file/d/1ihvriFkVKKyA7XQR3d_krdqnGOYA0_q3/view?usp=drive_link">Resume &nbsp;	&#128640;</a>
             </div>
       </div>
     </div>
