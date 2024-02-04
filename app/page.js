@@ -7,6 +7,7 @@ import card4 from "./images/card4.svg"
 import card5 from "./images/interactive.svg"
 import card6 from "./images/fluck.svg"
 import card7 from "./images/card7.svg"
+import card8 from "./images/lumemedia.svg"
 import Footer from "./components/footer";
 import tv from "./images/tv.svg"
 
@@ -46,6 +47,7 @@ export default function Home() {
 
         <div className='grid lg:grid-cols-2 gap-2  sm:grid-cols-1 md:grid-cols-2 lg:mt-12 mt-4 text-white'  >
         <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./crowdafrik"><Image src={card7} className="w-full"/></a></div>
+        <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./lumemedia"><Image src={card8} className="w-full"/></a></div>
           <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./mindbridge"><Image src={card1} className="w-full"/></a></div>
           <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./fluck"><Image src={card6} className="w-full"/></a></div>
           <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="https://medium.com/@rohithnairreghu/go-card-design-journey-5ee628a6f398"><Image src={card2} className="w-full"/></a></div>
