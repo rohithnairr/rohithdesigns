@@ -64,12 +64,12 @@ export default function Home() {
               <h2 className="text-3xl text-black font-bold">Experience</h2>
          
             <div className="my-12">
-              <h3 className="text-l lg:text-xl text-gray-800 font-bold">Senior product Designer | Front-End Developer</h3>
+              <h3 className="text-l lg:text-xl text-gray-800 font-bold">Midweight Product/UX Designer | Front-End Developer</h3>
               <p className="text-base lg:text-l text-gray-800 font-normal mt-2">CrowdAfrik Private Limited, London</p>
               <p className="text-base lg:text-l text-gray-800 font-normal mt-2">June 2023 - Present</p>
             </div>
             <div className="my-12">
-              <h3 className="text-l lg:text-xl text-gray-800 font-bold">Mid-Senior UI/UX Designer </h3>
+              <h3 className="text-l lg:text-xl text-gray-800 font-bold">Midweight UI/UX Designer </h3>
               <p className="text-base lg:text-l text-gray-800 font-normal mt-2">The Elmex Technologies, London</p>
               <p className="text-base lg:text-l text-gray-800 font-normal mt-2">November 2022 - June 2023</p>
             </div>
