@@ -45,7 +45,7 @@ export default function Home() {
             <h2 className="text-3xl  font-bold text-left mt-24">Stories</h2> 
         </div>
 
-        <div className='grid lg:grid-cols-2 gap-2  sm:grid-cols-1 md:grid-cols-2 lg:mt-12 mt-4 text-white'  >
+        <div className='grid lg:grid-cols-3 gap-2  sm:grid-cols-1 md:grid-cols-2 lg:mt-12 mt-4 text-white'  >
         <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./crowdafrik"><Image src={card7} className="w-full"/></a></div>
         <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./lumemedia"><Image src={card8} className="w-full"/></a></div>
           <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./mindbridge"><Image src={card1} className="w-full"/></a></div>

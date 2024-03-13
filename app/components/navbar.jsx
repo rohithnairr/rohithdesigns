@@ -33,10 +33,7 @@ function Navbar() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
         <li><a href='#Casestudies'>Case Studies</a></li>
-        <li>
-              <a href='#gui'>Gui</a>
-              
-            </li>
+        
           
           <li><a href='mailto:rohithnairreghu@gmail.com'>Contact Me</a></li>
         </ul>

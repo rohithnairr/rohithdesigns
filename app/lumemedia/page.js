@@ -1,8 +1,8 @@
 
 import Footer from "../components/footer"
 import Navigation from "../components/navbar";
-import banner from "./images/banner.png"
-import mockup from "./images/frame.png"
+import banner from "./images/banner.svg"
+import mockup from "./images/mockup.png"
 import Image from "next/image";
 import process from "../images/Process.svg"
 import personas from "./images/personaspng.png"
@@ -35,6 +35,7 @@ export default function Lume() {
 
           </div>
         </div>
+        
 
         <div className='grid lg:grid-cols-2 gap-4 mt-32 sm:grid-cols-1 md:grid-cols-2  text-grey-900'>
           <div>
@@ -56,6 +57,20 @@ export default function Lume() {
             <p className="font-light text-gray-900 text-base  font-Jakarta"><span className="font-bold">Client</span> : Lume Digital</p>
             <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><span className="font-bold">Industry</span> : Digital Marketing</p>
             <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><span className="font-bold">Challenges</span> :  Outdated website design, poor user experience, and a need for a visually appealing and modern online presence.</p>
+          </div>
+        </div>
+        <h1 className="font-bold text-xl font-Jakarta pb-8 mt-24 ">Outcome</h1>
+        <div className='grid lg:grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-2  text-grey-900'>
+          <div>
+         
+          <h1 className="font-bold text-2xl font-Jakarta pb-4 ">38%</h1>
+          <p className="font-light text-gray-900 text-base  font-Jakarta"> Increase in the conversion rate</p>
+
+
+          </div>
+          <div className='' data-aos="fade-right">
+          <h1 className="font-bold text-2xl font-Jakarta pb-4 ">43%</h1>
+          <p className="font-light text-gray-900 text-base  font-Jakarta"> Increase in the User Engagement Rate</p>
           </div>
         </div>
 
