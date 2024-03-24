@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <>
 
-    
+
 
       <div className="container mx-auto p-4 lg:p-8 font-jakarta bg-blue-gray-100 text-black ">
         <Navigation />
@@ -33,36 +33,37 @@ export default function Home() {
         </div>
 
         <div className="grid lg:grid-cols-4 md:grid-cols-4  bg-white p-4 rounded-lg">
-          <div> <p className=" font-bold text-3xl py-8 text-center">4+ <br/><span className="font-light text-base">Years of Experience</span></p></div>
-          <div> <p className=" font-bold text-3xl py-8 text-center">59+ <br/><span className="font-light text-base">UX/UI Projects</span></p></div>
-          <div> <p className=" font-bold text-3xl py-8 text-center">14+ <br/><span className="font-light text-base">Development Projects</span></p></div>
-          <div> <p className=" font-bold text-3xl py-8 text-center">8+ <br/><span className="font-light text-base">Achievements</span></p></div>
-         
+          <div> <p className=" font-bold text-3xl py-8 text-center">4+ <br /><span className="font-light text-base">Years of Experience</span></p></div>
+          <div> <p className=" font-bold text-3xl py-8 text-center">59+ <br /><span className="font-light text-base">UX/UI Projects</span></p></div>
+          <div> <p className=" font-bold text-3xl py-8 text-center">14+ <br /><span className="font-light text-base">Development Projects</span></p></div>
+          <div> <p className=" font-bold text-3xl py-8 text-center">8+ <br /><span className="font-light text-base">Achievements</span></p></div>
+
         </div>
 
 
         <div className="" id="Casestudies">
-            <h2 className="text-3xl  font-bold text-left mt-24">Stories</h2> 
+          <h2 className="text-3xl  font-bold text-left mt-24">Stories</h2>
         </div>
 
         <div className='grid lg:grid-cols-3 gap-2  sm:grid-cols-1 md:grid-cols-2 lg:mt-12 mt-4 text-white'  >
-        <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./crowdafrik"><Image src={card7} className="w-full"/></a></div>
-        <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./lumemedia"><Image src={card8} className="w-full"/></a></div>
-          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./mindbridge"><Image src={card1} className="w-full"/></a></div>
-          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./fluck"><Image src={card6} className="w-full"/></a></div>
-          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="https://medium.com/@rohithnairreghu/go-card-design-journey-5ee628a6f398"><Image src={card2} className="w-full"/></a></div>
-          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="https://medium.com/@rohithnairreghu/careershastra-a27acefe94fe"><Image src={card3} className="w-full"/></a></div>
-          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./lume"><Image src={card4} className="w-full"/></a></div>
-          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./tv"><Image src={tv} className="w-full"/></a></div>
-          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./motion"><Image src={card5} className="w-full"/></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./mindbridge"><Image src={card1} className="w-full" /></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./crowdafrik"><Image src={card7} className="w-full" /></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./lumemedia"><Image src={card8} className="w-full" /></a></div>
+
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./fluck"><Image src={card6} className="w-full" /></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="https://medium.com/@rohithnairreghu/go-card-design-journey-5ee628a6f398"><Image src={card2} className="w-full" /></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="https://medium.com/@rohithnairreghu/careershastra-a27acefe94fe"><Image src={card3} className="w-full" /></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./lume"><Image src={card4} className="w-full" /></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./tv"><Image src={tv} className="w-full" /></a></div>
+          <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./motion"><Image src={card5} className="w-full" /></a></div>
         </div>
-        
+
 
         <div className='grid lg:grid-cols-2 gap-4  sm:grid-cols-1 md:grid-cols-2 lg:mt-32 mt-4 text-white'  >
           <div className="pt-12">
-           
-              <h2 className="text-3xl text-black font-bold">Experience</h2>
-         
+
+            <h2 className="text-3xl text-black font-bold">Experience</h2>
+
             <div className="my-12">
               <h3 className="text-l lg:text-xl text-gray-800 font-bold">Midweight Product/UX Designer | Front-End Developer</h3>
               <p className="text-base lg:text-l text-gray-800 font-normal mt-2">CrowdAfrik Private Limited, London</p>
@@ -86,9 +87,9 @@ export default function Home() {
 
           </div>
           <div className="pt-12">
-            
-              <h2 className="text-3xl text-black font-bold">Education</h2>
-          
+
+            <h2 className="text-3xl text-black font-bold">Education</h2>
+
             <div className="my-12">
               <h3 className="text-l lg:text-xl text-gray-800 font-bold">Master’s in Web Design and Content Planning</h3>
               <p className="text-base lg:text-l text-gray-800 font-normal mt-2">University of Greenwich, United Kingdom</p>
@@ -104,9 +105,9 @@ export default function Home() {
 
 
         <div className="mt-20 font-Jakarta font-bold text-3xl">
-          
-            <h2 className="text-3xl font-bold text-left mt-12">Blogs</h2>
-       
+
+          <h2 className="text-3xl font-bold text-left mt-12">Blogs</h2>
+
           <Blog />
         </div>
 
@@ -118,7 +119,7 @@ export default function Home() {
 
       </div>
       <Footer />
-     
+
     </>
 
   )
