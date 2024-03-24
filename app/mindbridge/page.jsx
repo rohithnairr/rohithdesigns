@@ -10,9 +10,9 @@ import pain from "./images/painpoint.webp"
 import solution from "./images/solution.png"
 import ia from "./images/ia.webp"
 import design from "./images/design.webp"
-import screen from "./images/screen1.webp"
-import screen1 from "./images/screen2.webp"
-import screen2 from "./images/screen3.webp"
+import screen from "./images/screen.png"
+import screen1 from "./images/screen1.png"
+import screen2 from "./images/screen2.png"
 import persona1 from "./images/persona1.webp"
 import persona2 from "./images/persona2.webp"
 import Wireframe from "./images/wireframe.webp"
@@ -65,6 +65,22 @@ export default function Mindbridge() {
             <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><span className="font-bold">Challenges</span> : Create some user friendly interfaces for a mental health care.</p>
           </div>
         </div>
+
+        <h1 className="font-bold text-xl font-Jakarta pb-8 mt-24 ">Outcome</h1>
+        <div className='grid lg:grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-2  text-grey-900'>
+          <div>
+         
+          <h1 className="font-bold text-2xl font-Jakarta pb-4 ">19%</h1>
+          <p className="font-light text-gray-900 text-base  font-Jakarta"> Increase in the conversion rate</p>
+
+
+          </div>
+          <div className='' data-aos="fade-right">
+          <h1 className="font-bold text-2xl font-Jakarta pb-4 ">23%</h1>
+          <p className="font-light text-gray-900 text-base  font-Jakarta"> Increase in the User Engagement Rate</p>
+          </div>
+        </div>
+
 
         <div className='grid grid-cols-1 text-grey-900 animate-fade-up'>
           <div className='mt-8 lg:mt-24 md:mt-20' data-aos="fade-right">
