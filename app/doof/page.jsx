@@ -13,12 +13,7 @@ import comp from "./images/comp.png"
 import ia from "./images/ia.png"
 import typo from "./images/typography.svg"
 import color from "./images/colors.svg"
-import heatmap from "./images/heatmap.png"
 import screen1 from "./images/screens.png"
-import screen2 from "./images/screen2.png"
-import screen3 from "./images/screen3.png"
-import screen4 from "./images/screen4.png"
-import screen5 from "./images/screen5.png"
 import mock from "./images/mock.webp"
 
 
@@ -40,7 +35,7 @@ export default function Doof() {
           />
         </div>
         <div className='grid grid-cols-1 text-grey-900'>
-          <div className='mt-0 lg:mt-10  md:mt-20 animate-fade-up ' data-aos="fade-right">
+          <div className='mt-12 lg:mt-12  md:mt-20 animate-fade-up ' data-aos="fade-right">
             <h1 className="font-bold text-2xl  font-Jakarta pb-4 ">Doof</h1>
             <p className="font-light text-gray-900 text-base  font-Jakarta">Doof is your go-to food delivery app designed to simplify your dining experience. Select your favorite dishes from our curated menus and enjoy speedy delivery straight to your doorstep. Plus, with a vibrant foodie community, Doof is more than just an app – it's a culinary adventure waiting to happen. Download Doof today and discover a world of flavors at your fingertips.</p>
             <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><b>Role</b> : Product Designer/ UX Designer</p>
@@ -58,10 +53,9 @@ export default function Doof() {
           <div className='mt-0 lg:mt-10 md:mt-20' data-aos="fade-right">
             <h1 className="font-bold text-xl font-Jakarta pb-4 animate-fade-up">Introduction</h1>
             <p className="font-light text-l font-Jakarta pb-4 ">
-            Welcome to Doof, your go-to destination for convenient, personalized food delivery. With an array of top-rated restaurants at your fingertips, Doof offers a seamless ordering experience tailored to your tastes and dietary needs. From allergen identification to personalized recommendations, Doof ensures every meal is a delight. Join us and experience the future of food delivery today. Welcome to Doof.</p>
+              Welcome to Doof, your go-to destination for convenient, personalized food delivery. With an array of top-rated restaurants at your fingertips, Doof offers a seamless ordering experience tailored to your tastes and dietary needs. From allergen identification to personalized recommendations, Doof ensures every meal is a delight. Join us and experience the future of food delivery today. Welcome to Doof.</p>
           </div>
         </div>
-
 
         <div className='grid grid-cols-1 text-grey-900 animate-fade-up'>
           <div className='mt-8 lg:mt-24 md:mt-20' data-aos="fade-right">
@@ -93,10 +87,10 @@ export default function Doof() {
             <div>
               <p className="font-bold text-gray-900 text-lg  font-Jakarta">Understanding the Problem</p>
               <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">Many individuals with food allergies or intolerances face significant challenges when ordering food online. The lack of clear allergen information often leads to uncertainty and anxiety, as users struggle to identify safe options that align with their dietary restrictions. Additionally, slow delivery times can exacerbate the frustration, as users wait extended periods for their meals to arrive, diminishing the overall experience, particularly for individuals with busy schedules or those craving a quick and efficient dining solution.</p>
-              
+
               <p className="font-bold text-gray-900 text-lg mt-12  font-Jakarta">Solution</p>
               <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">Doof revolutionizes food delivery with innovative features. Users can  easily identify allergens in dishes through clear icons and explore  allergen-free options in a dedicated tab. Leveraging advanced logistics,  Doof ensures lightning-fast delivery, minimizing wait times and  maximizing satisfaction. With a seamless platform, it caters to dietary  needs while delivering a quick and convenient dining experience.</p>
-             
+
               <p className="font-bold text-gray-900 text-lg mt-12  font-Jakarta">User Research</p>
               <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">To ensure Doof meets the needs of its users effectively, extensive user research was conducted to gain insights into their behaviors, preferences, and pain points regarding food delivery services.</p>
 
@@ -113,25 +107,25 @@ export default function Doof() {
               <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">In conclusion, the user survey has provided valuable insights into user preferences, pain points, and satisfaction levels with Doof's food delivery app. By addressing the feedback gathered from the survey and prioritizing enhancements that align with user needs, Doof can further improve its app's user experience and solidify its position as a leading choice for convenient, reliable, and personalized food delivery services.</p>
 
               <div>
-                
-        <p className="font-bold text-gray-900 text-lg mt-12  font-Jakarta">Empathy Map</p>
-       <p className="font-light text-gray-900 text-base mt-16  font-Jakarta">In Doof, an empathy map serves as a valuable tool to gain deeper insights into the experiences, emotions, and behaviors of users engaging with the platform. Here's how the empathy map can be utilized in Doof:</p>
-       <ul>
-                <li className="font-light text-gray-900 text-base mt-8  font-Jakarta"> &#x2022; Understanding User Needs</li>
-                <li className="font-light text-gray-900 text-base mt-4  font-Jakarta"> &#x2022; Identifying Pain Points</li>
-                <li className="font-light text-gray-900 text-base mt-4  font-Jakarta"> &#x2022; Informing Design and Communication</li>
-                <li className="font-light text-gray-900 text-base mt-4  font-Jakarta"> &#x2022; Driving Engagement and Retention</li>
-              </ul>
-                <Image className="w-auto mt-16 h-70 mx-auto" style={{ height: 'auto', width: '70%' }}
+
+                <p className="font-bold text-gray-900 text-lg mt-12  font-Jakarta">Empathy Map</p>
+                <p className="font-light text-gray-900 text-base mt-16  font-Jakarta">In Doof, an empathy map serves as a valuable tool to gain deeper insights into the experiences, emotions, and behaviors of users engaging with the platform. Here's how the empathy map can be utilized in Doof:</p>
+                <ul>
+                  <li className="font-light text-gray-900 text-base mt-8  font-Jakarta"> &#x2022; Understanding User Needs</li>
+                  <li className="font-light text-gray-900 text-base mt-4  font-Jakarta"> &#x2022; Identifying Pain Points</li>
+                  <li className="font-light text-gray-900 text-base mt-4  font-Jakarta"> &#x2022; Informing Design and Communication</li>
+                  <li className="font-light text-gray-900 text-base mt-4  font-Jakarta"> &#x2022; Driving Engagement and Retention</li>
+                </ul>
+                <Image className="w-auto mt-16 h-70 mx-auto"
                   src={empathy}
                   alt="lume"
                 />
 
 
-<p className="font-bold text-gray-900 text-lg mt-10  font-Jakarta">Competitors Analysis</p>
-       <p className="font-light text-gray-900 text-base mt-16  font-Jakarta">The competitors analysis provides valuable insights into the strengths, weaknesses, opportunities, and threats present in the food delivery market. By examining competitors such as Uber Eats, DoorDash and Grubhub, we can identify areas for differentiation and improvement in our own food delivery app.</p>
-       
-                <Image className="w-auto mt-16 h-70 mx-auto" style={{ height: 'auto', width: '70%' }}
+                <p className="font-bold text-gray-900 text-lg mt-10  font-Jakarta">Competitors Analysis</p>
+                <p className="font-light text-gray-900 text-base mt-16  font-Jakarta">The competitors analysis provides valuable insights into the strengths, weaknesses, opportunities, and threats present in the food delivery market. By examining competitors such as Uber Eats, DoorDash and Grubhub, we can identify areas for differentiation and improvement in our own food delivery app.</p>
+
+                <Image className="w-auto mt-16 h-70 mx-auto"
                   src={comp}
                   alt="lume"
                 />
@@ -141,7 +135,7 @@ export default function Doof() {
 
                 <p className="font-light text-gray-900 text-base mt-16  font-Jakarta"><b>Conclusion</b> :Strengths such as wide restaurant selection and user-friendly interfaces are common among competitors, but weaknesses such as limited allergen information and occasional delivery issues present opportunities for our app to stand out. By prioritizing features like comprehensive allergen information, fast delivery, and personalized recommendations, we can address user pain points and capitalize on market opportunities.
 
-<br/><br/>While competition is fierce in the food delivery space, there are also opportunities for collaboration and innovation. By staying attuned to market trends and user preferences, we can continue to refine our app and provide a superior user experience. Ultimately, the competitors analysis serves as a strategic tool to inform our app's development and positioning in the marketplace.</p>
+                  <br /><br />While competition is fierce in the food delivery space, there are also opportunities for collaboration and innovation. By staying attuned to market trends and user preferences, we can continue to refine our app and provide a superior user experience. Ultimately, the competitors analysis serves as a strategic tool to inform our app's development and positioning in the marketplace.</p>
 
 
               </div>
@@ -149,50 +143,50 @@ export default function Doof() {
           </div>
         </div>
 
-        <div  className='grid grid-cols-1 text-grey-900 animate-fade-up'>
-        <p className="font-bold text-gray-900 text-2xl mt-12 font-Jakarta">Define</p>
-        <p className="font-bold text-gray-900 text-lg mt-12  font-Jakarta">User personas</p>
-              <p className="font-light text-gray-900 text-base mt-8 mb-8 font-Jakarta">I've gathered data on user personas from individuals with diverse backgrounds and perspectives, allowing me to gain valuable insights into their behavior, preferences, and needs. This comprehensive dataset has been instrumental in uncovering patterns and trends that inform the design and development of the Doof app.
-</p>
-<div className="grid lg:grid-cols-2 grid-cols-1 gap-2 mb-16 animate-fade-up" >
-  <div>
-<Image className="w-auto mt-16 h-70 mx-auto" style={{ height: 'auto', width: '100%' }}
-                  src={persona1}
-                  alt="lume"
-                />
-                </div>
-                <div>
-<Image className="w-auto mt-16 h-70 mx-auto" style={{ height: 'auto', width: '100%' }}
-                  src={persona2}
-                  alt="lume"
-                />
-                </div>
-                </div>
-        <p className="font-bold text-gray-900 text-base mt-8  font-Jakarta">Pain Points & Key Features</p>
-        <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">In the Define stage of our research, we delved deeper into understanding the fundamental aspects that would shape the Doof app. This phase involved a comprehensive exploration of user needs and the pain points they encounter in their  journey. Here's what we discovered:</p>
+        <div className='grid grid-cols-1 text-grey-900 animate-fade-up'>
+          <p className="font-bold text-gray-900 text-2xl mt-12 font-Jakarta">Define</p>
+          <p className="font-bold text-gray-900 text-lg mt-12  font-Jakarta">User personas</p>
+          <p className="font-light text-gray-900 text-base mt-8 mb-8 font-Jakarta">I've gathered data on user personas from individuals with diverse backgrounds and perspectives, allowing me to gain valuable insights into their behavior, preferences, and needs. This comprehensive dataset has been instrumental in uncovering patterns and trends that inform the design and development of the Doof app.
+          </p>
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-2 mb-16 animate-fade-up" >
+            <div>
+              <Image className="w-auto mt-16 h-70 mx-auto" style={{ height: 'auto', width: '100%' }}
+                src={persona1}
+                alt="lume"
+              />
+            </div>
+            <div>
+              <Image className="w-auto mt-16 h-70 mx-auto" style={{ height: 'auto', width: '100%' }}
+                src={persona2}
+                alt="lume"
+              />
+            </div>
+          </div>
+          <p className="font-bold text-gray-900 text-base mt-8  font-Jakarta">Pain Points & Key Features</p>
+          <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">In the Define stage of our research, we delved deeper into understanding the fundamental aspects that would shape the Doof app. This phase involved a comprehensive exploration of user needs and the pain points they encounter in their  journey. Here's what we discovered:</p>
         </div>
 
-        <div  className='grid  grid-cols-1 mx-auto '>
-        <div>
-        <Image className="w-auto mx-auto h-70  mt-16" style={{ height: 'auto', width: '70%' }}
-                  src={pain}
-                  alt="lume"
-                />
-        </div>
-        
+        <div className='grid  grid-cols-1 mx-auto '>
+          <div>
+            <Image className="w-100 lg:w-auto mx-auto  mt-16" 
+              src={pain}
+              alt="lume"
+            />
+          </div>
+
         </div>
 
 
 
         <div className='grid grid-cols-1 text-grey-900 animate-fade-up'>
           <div className='mt-8 lg:mt-24 md:mt-20' data-aos="fade-right">
-    
+
             <div>
               <p className="font-bold text-gray-900 text-2xl  font-Jakarta">Ideate</p>
               <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">Following in-depth research, a set of tailored solutions has been crafted to address identified challenges. This is underpinned by a refined information architecture, optimizing processes and resource utilization, ensuring adaptability and scalability. The result is a comprehensive solution poised for current challenges and future growth.</p>
               <div>
 
-                <Image className="w-auto h-70 mx-auto mt-24" style={{ height: 'auto', width: '60%' }}
+                <Image className="w-100 h-70 mx-auto mt-24" 
                   src={ia}
                   alt="lume"
                 />
@@ -205,7 +199,7 @@ export default function Doof() {
 
         <div className='grid grid-cols-1 text-grey-900 animate-fade-up'>
           <div className='mt-8 lg:mt-24 md:mt-20' data-aos="fade-right">
-    
+
             <div>
               <p className="font-bold text-gray-900 text-lg  font-Jakarta">Design</p>
 
@@ -220,86 +214,86 @@ export default function Doof() {
               </div>
               <p className=" text-gray-900 text-xl mt-16 font-bold  font-Jakarta">Branding and Logo Design</p>
               <div className="grid lg:grid-cols-2 grid-cols-1 gap-2 mb-16 animate-fade-up" >
-  <div>
-<p className=" text-gray-900 text-l mt-16 font-bold mb-16 font-Jakarta">Logo Design</p>
-              <div>
+                <div>
+                  <p className=" text-gray-900 text-l mt-16 font-bold mb-16 font-Jakarta">Logo Design</p>
+                  <div  className="px-8">
 
-                <Image className="w-auto h-70  mt-8 " style={{ height: 'auto', width: '40%' }}
-                  src={brand}
-                  alt="lume"
-                />
-              </div>
+                    <Image className="w-100 h-70  mt-8 mx-auto lg:mx-0 "
+                      src={brand}
+                      alt="lume"
+                    />
+                  </div>
                 </div>
                 <div>
-                <p className=" text-gray-900 text-l mt-16 font-bold mb-16 font-Jakarta">Process</p>
-              <div>
+                  <p className=" text-gray-900 text-l mt-16 font-bold mb-16 font-Jakarta">Process</p>
+                  <div className="px-8"> 
 
-                <Image className="w-auto h-70  mt-8 " style={{ height: 'auto', width: '50%' }}
-                  src={processlogo}
-                  alt="lume"
-                />
+                    <Image className="w-100 h-70  mt-8 mx-auto lg:mx-0 " 
+                      src={processlogo}
+                      alt="lume"
+                    />
+                  </div>
+                </div>
               </div>
-                </div>
-                </div>
-              
-            
-                <p className=" text-gray-900 text-xl mt-16 font-bold  font-Jakarta">Design System</p>
-              <div className="grid lg:grid-cols-1 grid-cols-1 gap-2 mb-16 animate-fade-up" >
-  <div>
-<p className=" text-gray-900 text-l mt-16 font-bold mb-16 font-Jakarta">Typography</p>
-              <div>
 
-                <Image className="w-auto h-70  mt-8 " style={{ height: 'auto', width: '50%' }}
-                  src={typo}
-                  alt="lume"
-                />
-              </div>
+
+              <p className=" text-gray-900 text-xl mt-16 font-bold  font-Jakarta">Design System</p>
+              <div className="grid lg:grid-cols-2 grid-cols-1 gap-2 mb-16 animate-fade-up" >
+                <div>
+                  <p className=" text-gray-900 text-l mt-16 font-bold mb-16 font-Jakarta">Typography</p>
+                  <div className="px-8">
+
+                    <Image className="w-100 h-30  mt-8 mx-auto lg:mx-0" 
+                      src={typo}
+                      alt="lume"
+                    />
+                  </div>
                 </div>
                 <div>
-                <p className=" text-gray-900 text-l mt-16 font-bold mb-16 font-Jakarta">Colors</p>
-              <div>
+                  <p className=" text-gray-900 text-l mt-16 font-bold mb-16 font-Jakarta">Colors</p>
+                  <div className="px-8">
 
-                <Image className="w-auto h-70  mt-8 " style={{ height: 'auto', width: '50%' }}
-                  src={color}
-                  alt="lume"
-                />
+                    <Image className="w-100 h-70  mt-8 mx-auto lg:mx-0" 
+                      src={color}
+                      alt="lume"
+                    />
+                  </div>
+                </div>
               </div>
-                </div>
-                </div>
             </div>
           </div>
         </div>
 
-     
+
         <div className='grid grid-cols-1 text-grey-900 animate-fade-up'>
           <div className='mt-8 lg:mt-24 md:mt-20' data-aos="fade-right">
-    
+
             <div>
               <p className="font-bold text-gray-900 text-lg  font-Jakarta">Screens</p>
-             
+
               <div>
 
-              <Image className="w-auto h-70 rounded-xl mx-auto" style={{ height: 'auto', width: '100%' }}
-            src={screen1}
-            alt="lume"
-          />
-         <p className="font-light text-gray-900 text-base mt-12  font-Jakarta">There are a total of 43 screens, with the remaining screens completed and currently under development. Due to this ongoing development phase, I'm unable to showcase all the UI screens here. The next steps will involve usability testing and A/B testing to ensure optimal user experience.</p>
-
-     
-
-<p className="font-light text-gray-900 text-base mt-12  font-Jakarta">After completing usability testing and finalizing the app design, the next steps involve development and implementation, quality assurance testing, app store submission, marketing and promotion, launch event planning, user onboarding and support, analytics and monitoring implementation, and iterative improvement based on user feedback and insights.</p>
+                <Image className="w-auto h-70 rounded-xl mx-auto" style={{ height: 'auto', width: '100%' }}
+                  src={screen1}
+                  alt="lume"
+                />
+                <p className="font-light text-gray-900 text-base mt-12  font-Jakarta">There are a total of 43 screens, with the remaining screens completed and currently under development. Due to this ongoing development phase, I'm unable to showcase all the UI screens here. The next steps will involve usability testing and A/B testing to ensure optimal user experience.</p>
 
 
-             
+
+                <p className="font-light text-gray-900 text-base mt-12  font-Jakarta">After completing usability testing and finalizing the app design, the next steps involve development and implementation, quality assurance testing, app store submission, marketing and promotion, launch event planning, user onboarding and support, analytics and monitoring implementation, and iterative improvement based on user feedback and insights.</p>
 
 
-<p className="font-bold text-gray-900 text-lg  mt-16 lg:mt-28  font-Jakarta">Thank You.</p>
 
 
-<Image className="w-auto h-70 rounded-xl mt-12 mx-auto" style={{ height: 'auto', width: '100%' }}
-            src={mock}
-            alt="lume"
-          />
+
+                <p className="font-bold text-gray-900 text-lg  mt-16 lg:mt-28  font-Jakarta">Thank You.</p>
+
+
+                <Image className="w-auto h-70 rounded-xl mt-12 mx-auto" style={{ height: 'auto', width: '100%' }}
+                  src={mock}
+                  alt="lume"
+                />
 
               </div>
             </div>
