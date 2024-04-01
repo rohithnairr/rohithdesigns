@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import card0 from "./images/card0.svg"
 import card1 from "./images/card1.svg"
 import card2 from "./images/card2.svg"
 import card3 from "./images/card3.svg"
@@ -46,6 +47,7 @@ export default function Home() {
         </div>
 
         <div className='grid lg:grid-cols-3 gap-2  sm:grid-cols-1 md:grid-cols-2 lg:mt-12 mt-4 text-white'  >
+        <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./doof"><Image src={card0} className="w-full" /></a></div>
           <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./mindbridge"><Image src={card1} className="w-full" /></a></div>
           <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./crowdafrik"><Image src={card7} className="w-full" /></a></div>
           <div className="animate-fade-bottom animate-duration-[1000ms]"><a href="./lumemedia"><Image src={card8} className="w-full" /></a></div>
