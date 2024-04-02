@@ -13,8 +13,13 @@ import comp from "./images/comp.png"
 import ia from "./images/ia.png"
 import typo from "./images/typography.svg"
 import color from "./images/colors.svg"
-import screen1 from "./images/screens.png"
+import screen1 from "./images/screensgroup.webp"
 import mock from "./images/mock.webp"
+import tape from "./images/tape.png"
+import tshirt from "./images/tshirt.png"
+import packet from "./images/packet.png"
+import board from "./images/board.png"
+import boardu from "./images/boardd.png"
 
 
 
@@ -109,7 +114,7 @@ export default function Doof() {
               <div>
 
                 <p className="font-bold text-gray-900 text-lg mt-12  font-Jakarta">Empathy Map</p>
-                <p className="font-light text-gray-900 text-base mt-16  font-Jakarta">In Doof, an empathy map serves as a valuable tool to gain deeper insights into the experiences, emotions, and behaviors of users engaging with the platform. Here's how the empathy map can be utilized in Doof:</p>
+                <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">In Doof, an empathy map serves as a valuable tool to gain deeper insights into the experiences, emotions, and behaviors of users engaging with the platform. Here's how the empathy map can be utilized in Doof:</p>
                 <ul>
                   <li className="font-light text-gray-900 text-base mt-8  font-Jakarta"> &#x2022; Understanding User Needs</li>
                   <li className="font-light text-gray-900 text-base mt-4  font-Jakarta"> &#x2022; Identifying Pain Points</li>
@@ -122,8 +127,8 @@ export default function Doof() {
                 />
 
 
-                <p className="font-bold text-gray-900 text-lg mt-10  font-Jakarta">Competitors Analysis</p>
-                <p className="font-light text-gray-900 text-base mt-16  font-Jakarta">The competitors analysis provides valuable insights into the strengths, weaknesses, opportunities, and threats present in the food delivery market. By examining competitors such as Uber Eats, DoorDash and Grubhub, we can identify areas for differentiation and improvement in our own food delivery app.</p>
+                <p className="font-bold text-gray-900 text-lg mt-12 font-Jakarta">Competitors Analysis</p>
+                <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">The competitors analysis provides valuable insights into the strengths, weaknesses, opportunities, and threats present in the food delivery market. By examining competitors such as Uber Eats, DoorDash and Grubhub, we can identify areas for differentiation and improvement in our own food delivery app.</p>
 
                 <Image className="w-auto mt-16 h-70 mx-auto"
                   src={comp}
@@ -201,7 +206,7 @@ export default function Doof() {
           <div className='mt-8 lg:mt-24 md:mt-20' data-aos="fade-right">
 
             <div>
-              <p className="font-bold text-gray-900 text-lg  font-Jakarta">Design</p>
+              <p className="font-bold text-gray-900 text-2xl  font-Jakarta">Design</p>
 
               <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">Crafting the Blueprint with Wireframes</p>
               <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">Following the define and Ideation stages, we transitioned into the Design phase, where we embarked on the task of creating wireframes. Wireframes serve as the foundational blueprints of the Doof app, delineating its structure, layout, and functionality.</p>
@@ -269,7 +274,7 @@ export default function Doof() {
           <div className='mt-8 lg:mt-24 md:mt-20' data-aos="fade-right">
 
             <div>
-              <p className="font-bold text-gray-900 text-lg  font-Jakarta">Screens</p>
+              <p className="font-bold text-gray-900 text-lg mb-12 font-Jakarta">Screens</p>
 
               <div>
 
@@ -280,11 +285,45 @@ export default function Doof() {
                 <p className="font-light text-gray-900 text-base mt-12  font-Jakarta">There are a total of 43 screens, with the remaining screens completed and currently under development. Due to this ongoing development phase, I'm unable to showcase all the UI screens here. The next steps will involve usability testing and A/B testing to ensure optimal user experience.</p>
 
 
+                <p className="font-bold text-gray-900 text-2xl mt-12  font-Jakarta">Next Step</p>
 
-                <p className="font-light text-gray-900 text-base mt-12  font-Jakarta">After completing usability testing and finalizing the app design, the next steps involve development and implementation, quality assurance testing, app store submission, marketing and promotion, launch event planning, user onboarding and support, analytics and monitoring implementation, and iterative improvement based on user feedback and insights.</p>
+                <p className="font-light text-gray-900 text-base mt-4  font-Jakarta">After completing usability testing and finalizing the app design, the next steps involve development and implementation, quality assurance testing, app store submission, marketing and promotion, launch event planning, user onboarding and support, analytics and monitoring implementation, and iterative improvement based on user feedback and insights.</p>
 
 
+                <p className="font-bold text-gray-900 text-2xl mt-12  font-Jakarta">Brandings</p>
+                <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 mt-6">
+                  <div>
+                  <Image className="w-auto h-70 rounded-xl mt-6 mx-auto" style={{ height: 'auto', width: '100%' }}
+                  src={tshirt}
+                  alt="lume"
+                />
+                  </div>
+                  <div>
+                  <Image className="w-auto h-70 rounded-xl mt-6 mx-auto" style={{ height: 'auto', width: '100%' }}
+                  src={tape}
+                  alt="lume"
+                />
+                  </div>
+                  <div>
+                  <Image className="w-auto h-70 rounded-xl mt-6 mx-auto" style={{ height: 'auto', width: '100%' }}
+                  src={board}
+                  alt="lume"
+                />
+                  </div>
+                  <div>
+                  <Image className="w-auto h-70 rounded-xl mt-6 mx-auto" style={{ height: 'auto', width: '100%' }}
+                  src={packet}
+                  alt="lume"
+                />
+                  </div>
+                  <div>
+                  <Image className="w-auto h-70 rounded-xl mt-6 mx-auto" style={{ height: 'auto', width: '100%' }}
+                  src={boardu}
+                  alt="lume"
+                />
+                  </div>
 
+                </div>
 
 
                 <p className="font-bold text-gray-900 text-lg  mt-16 lg:mt-28  font-Jakarta">Thank You.</p>
