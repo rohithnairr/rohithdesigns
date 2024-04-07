@@ -100,7 +100,7 @@ export default function Home() {
             <div className="my-12">
               <h3 className="text-l lg:text-xl text-gray-800 font-bold">Bachelor’s in Computer Engineering</h3>
               <p className="text-base lg:text-l text-gray-800 font-normal mt-2">Amrita School of Engineering, India</p>
-              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">2022- 2023</p>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">2016- 2020</p>
             </div>
           </div>
         </div>
