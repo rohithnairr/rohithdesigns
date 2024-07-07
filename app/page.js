@@ -35,7 +35,7 @@ export default function Home() {
 
         <div className="grid lg:grid-cols-4 md:grid-cols-4  bg-white p-4 rounded-lg">
           <div> <p className=" font-bold text-3xl py-8 text-center">4+ <br /><span className="font-light text-base">Years of Experience</span></p></div>
-          <div> <p className=" font-bold text-3xl py-8 text-center">59+ <br /><span className="font-light text-base">UX/UI Projects</span></p></div>
+          <div> <p className=" font-bold text-3xl py-8 text-center">29+ <br /><span className="font-light text-base">UX/UI Projects</span></p></div>
           <div> <p className=" font-bold text-3xl py-8 text-center">14+ <br /><span className="font-light text-base">Development Projects</span></p></div>
           <div> <p className=" font-bold text-3xl py-8 text-center">8+ <br /><span className="font-light text-base">Achievements</span></p></div>
 
@@ -67,17 +67,19 @@ export default function Home() {
             <h2 className="text-3xl text-black font-bold">Experience</h2>
 
             <div className="my-12">
-              <h3 className="text-l lg:text-xl text-gray-800 font-bold">Midweight Product/UX Designer | Front-End Developer</h3>
-              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">CrowdAfrik Private Limited, London</p>
-              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">June 2023 - Present</p>
+              <h3 className="text-l lg:text-xl text-gray-800 font-bold">UI Engineer | Product Designer</h3>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">FluckAi Limited, London</p>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">Decemeber 2023 - Present</p>
             </div>
+
             <div className="my-12">
-              <h3 className="text-l lg:text-xl text-gray-800 font-bold">Midweight UI/UX Designer </h3>
-              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">The Elmex Technologies, London</p>
-              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">November 2022 - June 2023</p>
+              <h3 className="text-l lg:text-xl text-gray-800 font-bold">UI Engineer | Product Designer</h3>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">CrowdAfrik Limited, London</p>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">July 2023 - Present</p>
             </div>
+           
             <div className="my-12">
-              <h3 className="text-l lg:text-xl text-gray-800 font-bold">UI/UX Developer </h3>
+              <h3 className="text-l lg:text-xl text-gray-800 font-bold">UI Engineer | Digital Designer </h3>
               <p className="text-base lg:text-l text-gray-800 font-normal mt-2">Indegene Private Limited, India</p>
               <p className="text-base lg:text-l text-gray-800 font-normal mt-2">June 2021 - July 2023</p>
             </div>
