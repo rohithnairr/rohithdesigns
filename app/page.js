@@ -6,7 +6,7 @@ import card2 from "./images/card2.svg"
 import card3 from "./images/card3.svg"
 import card4 from "./images/card4.svg"
 import card5 from "./images/interactive.svg"
-import card6 from "./images/fluck.svg"
+import card6 from "./images/card6.svg"
 import card7 from "./images/card7.svg"
 import card8 from "./images/lumemedia.svg"
 import Footer from "./components/footer";
