@@ -1,18 +1,16 @@
 
 import Footer from "../components/footer"
 import Navigation from "../components/navbar";
-import banner from "./images/top.png"
-import mockup from "./images/mockup.png"
+import banner from "./images/fluckcover.gif"
+import mockup from "./images/mock.png"
 import Image from "next/image";
 import process from "../images/Process.svg"
 import questions from "./images/questions.png"
 import pain from "./images/painpoint.png"
 import empathy from "./images/empathy.png"
 import ia from "./images/ia.png"
-import design from "./images/design.svg"
+import design from "./images/designsystem.svg"
 import screen from "./images/screen1.png"
-
-
 import persona1 from "./images/persona1.png"
 import persona2 from "./images/persona2.png"
 import Wireframe from "./images/wireframe.png"
@@ -24,14 +22,14 @@ export default function Mindbridge() {
       <div className="container mx-auto p-4 lg:p-12 font-jakarta animate-fade-up">
         <Navigation />
         <div className="mt-16">
-          <Image className="w-auto h-70 rounded-xl mx-auto" style={{ height: 'auto', width: '70%' }}
+          <Image className="w-auto h-70 rounded-xl mx-auto" style={{ height: 'auto', width: '90%' }}
             src={banner}
             alt="lume"
           />
         </div>
         <div className='grid grid-cols-1 text-grey-900'>
           <div className='mt-0 lg:mt-10  md:mt-20 animate-fade-up ' data-aos="fade-right">
-            <h1 className="font-bold text-2xl  font-Jakarta pb-4 ">FLUCK</h1>
+            <h1 className="font-bold text-3xl  font-Jakarta pb-4 ">FLUCK App</h1>
             <p className="font-light text-gray-900 text-base  font-Jakarta">FLUCK, the app that redefines nearby transactions, seamlessly combines convenience, security, and social engagement. This innovative payment platform simplifies bill splitting, enables instant payments, and provides personalized deals based on your location. With features like private transactions and integrated chat, FLUCK not only streamlines financial interactions but also enhances the social aspect of payments. Say goodbye to the complexities of splitting bills and welcome the ease and connectivity of FLUCK—a new era in proximity-based payments.</p>
             <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><b>Role</b> : Product Designer</p>
 
@@ -52,19 +50,7 @@ export default function Mindbridge() {
             <h1 className="font-bold text-xl font-Jakarta pb-4 animate-fade-up">Introduction</h1>
             <p className="font-light text-l font-Jakarta pb-4 ">
             FLUCK is a cutting-edge proximity-based financial application designed to revolutionize the way people handle transactions with friends and contacts in their vicinity. With a focus on privacy, security, and seamless user experience, FLUCK brings a new dimension to social financial interactions.</p>
-          </div>
-        </div>
-
-
-        <div className='grid grid-cols-1 text-grey-900 animate-fade-up'>
-          <div className='mt-8 lg:mt-24 md:mt-20' data-aos="fade-right">
-            <p className="font-light text-gray-900 text-base  font-Jakarta"><span className="font-bold">Client</span> : CrowdAfrik</p>
-            <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><span className="font-bold">Industry</span> : Fintech</p>
-            <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><span className="font-bold">Challenges</span> : Creating aethetic and intuitive designs to integrate different financial analytical tools</p>
-          </div>
-        </div>
-
-        <div className='grid grid-cols-1 text-grey-900 animate-fade-up'>
+      
           <div className='mt-8 lg:mt-24 md:mt-20' data-aos="fade-right">
             <h1 className="font-bold text-xl font-Jakarta pb-8 ">Objectives</h1>
             <p className="font-light text-gray-900 text-base  font-Jakarta"> &#128170; Create Intuitive Designs</p>
@@ -72,7 +58,20 @@ export default function Mindbridge() {
             <p className="font-light text-gray-900 text-base mt-4  font-Jakarta">&#128681; Optimize for Conversion</p>
             <p className="font-light text-gray-900 text-base mt-4  font-Jakarta">&#127775; Maintain Brand Consistency</p>
           </div>
+        
+          </div>
         </div>
+
+
+        <div className='grid grid-cols-1 text-grey-900 animate-fade-up'>
+          <div className='mt-8 lg:mt-24 md:mt-20' data-aos="fade-right">
+            <p className="font-light text-gray-900 text-base  font-Jakarta"><span className="font-bold">Client</span> :Fluckai Limited</p>
+            <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><span className="font-bold">Industry</span> : Fintech</p>
+            <p className="font-light text-gray-900 text-base mt-4  font-Jakarta"><span className="font-bold">Challenges</span> : Creating aethetic and intuitive designs to integrate different financial analytical tools</p>
+          </div>
+        </div>
+
+      
 
         <div className='grid grid-cols-1 text-grey-900 animate-fade-up'>
           <div className='mt-8 lg:mt-24 md:mt-20' data-aos="fade-right">
