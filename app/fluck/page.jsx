@@ -13,7 +13,9 @@ import design from "./images/designsystem.svg"
 import screen from "./images/screen1.png"
 import persona1 from "./images/persona1.png"
 import persona2 from "./images/persona2.png"
-import Wireframe from "./images/wireframe.png"
+import Wireframe from "./images/wireframe.svg"
+import low from "./images/wireframe.png"
+
 
 export default function Mindbridge() {
   return (
@@ -173,7 +175,16 @@ export default function Mindbridge() {
             <div>
               <p className="font-bold text-gray-900 text-lg  font-Jakarta">Design</p>
 
-              <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">Wireframe</p>
+              <p className="font-light text-gray-900 text-base mt-8  font-Jakarta">We transitioned from low-fidelity to high-fidelity wireframes, effectively conveying the app's functionality and overall concept. This process was instrumental in identifying real-time pain points and potential roadblocks. Through multiple iterations of the wireframes, we refined the user flow to enhance its seamlessness and integrated financial analytical tools.
+              </p>
+
+              <div>
+
+                <Image className="w-auto h-70 mx-auto mt-4" style={{ height: 'auto', width: '70%' }}
+                  src={low}
+                  alt="wireframe"
+                />
+              </div>
               <div>
 
                 <Image className="w-auto h-70 mx-auto mt-4" style={{ height: 'auto', width: '70%' }}
@@ -184,7 +195,7 @@ export default function Mindbridge() {
               <p className=" text-gray-900 text-xl mt-16 font-bold font-Jakarta">Design System</p>
               <div>
 
-                <Image className="w-auto h-70  mt-8 " style={{ height: 'auto', width: '70%' }}
+                <Image className="w-auto h-70 mx-auto mt-8 " style={{ height: 'auto', width: '80%' }}
                   src={design}
                   alt="lume"
                 />
