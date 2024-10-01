@@ -68,16 +68,24 @@ export default function Home() {
             <h2 className="text-3xl text-black font-bold">Experience</h2>
 
             <div className="my-12">
-              <h3 className="text-l lg:text-xl text-gray-800 font-bold">UI Engineer | Product Designer</h3>
-              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">FluckAi Limited, London</p>
-              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">Decemeber 2023 - Present</p>
+              <h3 className="text-l lg:text-xl text-gray-800 font-bold">Product Designer,<span className="font-light text-base"><i>Freelance-Contract</i></span> </h3>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">Sonin App Development, London</p>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">September 2024 - Present</p>
             </div>
 
             <div className="my-12">
-              <h3 className="text-l lg:text-xl text-gray-800 font-bold">UI Engineer | Product Designer</h3>
+              <h3 className="text-l lg:text-xl text-gray-800 font-bold"> Senior Product Designer</h3>
               <p className="text-base lg:text-l text-gray-800 font-normal mt-2">CrowdAfrik Limited, London</p>
               <p className="text-base lg:text-l text-gray-800 font-normal mt-2">July 2023 - Present</p>
             </div>
+
+            <div className="my-12">
+              <h3 className="text-l lg:text-xl text-gray-800 font-bold">Product Designer <span className="font-light text-base"><i>Freelance-Contract</i></span></h3>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">FluckAi Limited, London</p>
+              <p className="text-base lg:text-l text-gray-800 font-normal mt-2">Decemeber 2023 - September 2024</p>
+            </div>
+
+           
            
             <div className="my-12">
               <h3 className="text-l lg:text-xl text-gray-800 font-bold">UI Engineer | Digital Designer </h3>
